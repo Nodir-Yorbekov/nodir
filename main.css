@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+ box-shadow: 0 0 10px;
+}
+.container{
+width: 1500px;
+height: auto;
+padding: 30px;
+margin: 0 auto;
+
+}
+.navbar h1{
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+.navbar .nav__ul{
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.nav__ul .nav__li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+.tell-numb{
+    color: #fff !important;
+    padding: 10px 25px;
+    background: rgb(0, 247, 255);
+    border-radius: 6px;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+.arrow__align{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    
+}
+.arrow__text{
+    width: 50%;
+    height: auto;
+}
+.arrow__text h2{
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+.arrow__text p{
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+.arrow__text a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(0, 247, 255);
+    border-radius: 6px;
+    color: #fff;
+   
+}
+.xizmatlar__card{
+    width: 25%;
+    margin: 0 1rem;
+
+}
+.xizmatlar{
+    width:100%;
+    height: auto;
+  
+}
+.xizmatlar__title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.xizmatlar__cards{
+    width: 100%;
+    flex-wrap: wrap;
+    display:flex;
+    
+}
+.xizmatlar__cards .xizmatlar__card img{
+    width: 200px;
+    height: 200px;
+}
